@@ -9,7 +9,7 @@ This project demonstrates a modern three-tier architecture:
 ## Architecture Overview
 
 
-![Azure-3tier](https://github.com/user-attachments/assets/e05aae9d-cd05-4610-a2d3-ab82341bff77)
+![image](https://github.com/user-attachments/assets/a8470307-a7a4-4013-8748-60f862c0bc43)
 
 
 
@@ -294,10 +294,10 @@ After pushing your images to Docker Hub, deploy the infrastructure with your Doc
 cd infra
 terraform apply \
   -var-file="environments/prod/terraform.tfvars" \
-  -var="dockerhub_username=YOUR_DOCKERHUB_USERNAME" \
+  -var="dockerhub_username=piyushsachdeva" \
   -var="dockerhub_password=YOUR_DOCKERHUB_PAT" \
-  -var="frontend_image=YOUR_DOCKERHUB_USERNAME/frontend:latest" \
-  -var="backend_image=YOUR_DOCKERHUB_USERNAME/backend:latest"
+  -var="frontend_image=piyushsachdeva/frontend:latest" \
+  -var="backend_image=piyushsachdeva/backend:latest"
 ```
 
 This command will:
