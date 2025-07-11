@@ -1,9 +1,9 @@
 #!/bin/bash
 
-RESOURCE_GROUP_NAME=terraform-state-rg
-STAGE_SA_ACCOUNT=tfstagebackend2024piyush
-DEV_SA_ACCOUNT=tfdevbackend2024piyush
-CONTAINER_NAME=tfstate
+RESOURCE_GROUP_NAME=terraform-state-rg-yuva
+STAGE_SA_ACCOUNT=tfstagebackend2024yuva
+DEV_SA_ACCOUNT=tfdevbackend2024yuva
+CONTAINER_NAME=tfstate-yuva
 
 
 # Create resource group

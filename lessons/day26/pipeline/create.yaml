@@ -28,9 +28,9 @@ stages:
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/dev'
         backendServiceArm: 'Azure-Service-Connection'
-        backendAzureRmResourceGroupName: 'terraform-state-rg'
-        backendAzureRmStorageAccountName: 'tfstatedev2024'
-        backendAzureRmContainerName: 'tfstate'
+        backendAzureRmResourceGroupName: 'terraform-state-rg-yuva'
+        backendAzureRmStorageAccountName: 'tfstatedev2024yuva'
+        backendAzureRmContainerName: 'tfstate-yuva'
         backendAzureRmKey: 'dev.terraform.tfstate'
     
     - task: TerraformTaskV4@4
